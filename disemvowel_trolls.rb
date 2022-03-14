@@ -11,5 +11,5 @@ def disemvowel(str)
 end
 
 def disemvowel(str)
-    str.delete('aeiouAEIOU')
+    str.downcase.delete('aeiou')
 end
