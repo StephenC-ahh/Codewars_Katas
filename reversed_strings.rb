@@ -7,6 +7,5 @@
 # 'word'   =>  'drow'
 
 def solution(str)
-    str.reverse
+  str.reverse
 end
-
